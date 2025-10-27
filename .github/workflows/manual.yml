@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Testando pipeline
-        run: echo "✅ Pipeline funcionando com HTML e CSS!"
+        run: echo " Pipeline funcionando com HTML e CSS!"
