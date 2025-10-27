@@ -1,0 +1,17 @@
+name: Test Pipeline HTML CSS
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar código do repositório
+        uses: actions/checkout@v3
+
+      - name: Testando pipeline
+        run: echo "✅ Pipeline funcionando com HTML e CSS!"
